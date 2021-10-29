@@ -1,12 +1,12 @@
 from directoryManager import FileAdmin
 
 fileadm = FileAdmin("fileadm")
-
 import pika
-host = "143.244.204.187" #"143.244.204.187"
-port = "5672" #5672
-user = "user" #user
-pw = "password" #password
+
+host = SERVER_HOST
+port = SERVER_PORT
+user = SERVER_USER
+pw = SERVER_PASS
 
 connection = pika.BlockingConnection(pika.ConnectionParameters(host, port, '/', 
 pika.PlainCredentials(user, pw)))
