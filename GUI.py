@@ -6,8 +6,8 @@ import pika
 from threading import *
 import time
 
-host = "143.244.204.187" #"143.244.204.187"
-port = "5672" #5672
+host = "host" #""
+port = "port" #
 user = "user" #user
 pw = "password" #password
 
