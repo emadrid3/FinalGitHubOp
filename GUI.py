@@ -6,10 +6,10 @@ import pika
 from threading import *
 import time
 
-host = "SERVER_HOST"
-port = "SERVER_PORT"
-user = "SERVER_USER"
-pw = "SERVER_PASS"
+host = SERVER_HOST
+port = SERVER_PORT
+user = SERVER_USER
+pw = SERVER_PASS
 
 pid = ""
 
